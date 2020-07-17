@@ -1,0 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@charset "UTF-8";
+
+
+
+
+
+section#content div.article > div.profile_photo{
+  width: 15%;
+  margin: 0 auto;
+  /* border: 1px solid rgba(142, 129, 129, 0.5); */
+    -webkit-box-shadow: 5px 10px 15px rgba(142, 129, 129, 0.5);
+            box-shadow: 5px 10px 15px rgba(142, 129, 129, 0.5);
+    text-align: center;
+    transition: width 0.3s;
+}
+
+section#content div.article > div.profile_photo > span{
+  font-size: 0.8rem;
+}
+
+section#content div.article > div.profile_photo img{
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid rgba(142, 129, 129, 0.5)
+}
+
+section#content div.article > h3{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 30px 0 25px 0;
+}
+
+section#content div.article table{
+  margin: 0 auto;
+}
+
+section#content div.article table th{
+  text-align: left;
+}
+section#content div.article table th > i{
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1350px){
+  section#content div.article > div.profile_photo{
+    width: 25%;
+  }
+}
+
+  @media screen and (max-width: 980px){
+    section#content div.article > div.profile_photo{
+      width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section#content div.article > div.profile_photo{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 450px){
+  section#content div.article > div.profile_photo{
+    width: 80%;
+}
+}

@@ -1,0 +1,51 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@charset "UTF-8";
+
+
+.title{
+  font-size: 2rem;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.label{
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  font-weight: 200;
+  background: #ff6f6f;
+  color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-left: 10px;
+  border-radius: 7px;
+}
+
+.label.label_copy{
+  background: #6f93ff;
+}
+
+div.row{
+  flex-wrap: wrap;
+}
+
+div.row > div.cell, div.row > img.cell{
+  width: 50%;
+  text-align: left;
+
+}
+
+div.row > div.cell{
+  padding: 0px 20px;
+  font-size: 0.9rem;
+
+}
